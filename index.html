@@ -1,0 +1,104 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    document.getElementsByTagName("html")[0].className += " js";
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>EXPONENT | Weapons</title>
+
+  <link rel="icon" type="image/png" href="images/logo.png" />
+
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <div id="Home">
+    <header class="cd-main-header js-cd-main-header">
+      <div class="cd-logo-wrapper">
+        <a href="https://exponentpilots.github.io/home" class="cd-logo"><img src="assets/img/logo.png" alt="Logo" height="50px" width="50px"></a>
+      </div>
+
+      <div class="cd-search js-cd-search" style="display: none">
+        <input class="reset" type="search" placeholder="Search a student..." style="display: none">
+      </div>
+
+
+      <button class="reset cd-nav-trigger js-cd-nav-trigger" aria-label="Toggle menu"><span></span></button>
+
+      <ul class="cd-nav__list js-cd-nav__list">
+        <li class="cd-nav__item cd-nav__item--has-children cd-nav__item--account js-cd-item--has-children">
+
+
+          <ul class="cd-nav__sub-list">
+            <li class="cd-nav__sub-item"><a id="openProfileButton" onclick="ListToProfilePage()"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;My Profile</a></li>
+            <li class="cd-nav__sub-item" id="logoutSymbol"><a onclick="logout()"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;&nbsp;Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header> 
+
+    <main class="cd-main-content">
+      <nav class="cd-side-nav js-cd-side-nav">
+        <ul class="cd-side__list js-cd-side__list">
+          <li class="cd-side__label"><span>Main</span></li>
+          <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+            <a href="#0">Overview</a>
+
+            <ul class="cd-side__sub-list">
+              <li class="cd-side__sub-item"><a href="https://exponentpilots.github.io/pending"><i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;Pending</a></li>
+              <li class="cd-side__sub-item"><a href="https://exponentpilots.github.io/completed"><i class="fa-solid fa-calendar-check"></i>&nbsp;&nbsp;Completed</a></li>
+            </ul>
+
+            
+          </li>
+          
+          <li class="cd-side__item cd-side__item--has-children cd-side__item--notifications cd-side__item--selected js-cd-item--has-children">
+            <a href="#0">Available Service</a>
+            <ul class="cd-side__sub-list">
+              <li class="cd-side__sub-item"><a href="https://exponentpilots.github.io/trials"><i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;Trials</a></li>
+              <li class="cd-side__sub-item"><a href="https://exponentpilots.github.io/races"><i class="fa-solid fa-person"></i>&nbsp;&nbsp;&nbsp;Races</a></li>
+              <li class="cd-side__sub-item"><a href="https://exponentpilots.github.io/weapons"><i class="fa-solid fa-shield-halved"></i>&nbsp;&nbsp;Weapons</a></li>
+              <li class="cd-side__sub-item"><a href="https://exponentpilots.github.io/fighting-styles"><i class="fa-solid fa-hand-fist"></i>&nbsp;&nbsp;Fighting Styles</a></li>
+              <li class="cd-side__sub-item"><a href="https://exponentpilots.github.io/materials"><i class="fa-solid fa-gem"></i>&nbsp;&nbsp;Materials</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="cd-content-wrapper">
+        <div class="text-component text-center" style="text-align: justify" id="HomeText">
+
+          <!------ DISPLAY HOME PAGE ------>
+
+          <h1 style="text-align: center; font-weight: bold">Weapons</h1>
+          <br>
+          <hr>
+          <strong>About</strong>
+          <p>Our Blox Fruits Piloting Service lets you get the perfect weapon for your playstyle without the grind. Whether you're looking for powerful swords, guns, or other weapons, our expert team will efficiently farm and unlock your desired weapon on your account. We handle all the tedious steps—defeating bosses, completing quests, and gathering materials—so you can quickly equip your ideal weapon and boost your combat effectiveness. Sit back and relax while we ensure your account is armed with the best tools for success in Blox Fruits!</p>
+          <div style="text-align: justify">
+          
+          <hr>
+          <img src="images/WEAPONS-PRICE.png">
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/menu-aim.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
